@@ -1,4 +1,42 @@
 * {
     background-color: black;
     color: white;
+    font-family: arial, helvetica, sans-serif;
+    box-sizing: border-box; /* Alternative CSS box model: makes padding/margin/border fit inside size of box instead of adding them */
+}
+
+h2, h1 {
+    background-color: rgb(15, 60, 60);
+}
+
+h1 {
+    text-align: center;
+    inline-size: 750px;
+    border: 2px solid darkolivegreen;
+}
+
+.home-head {
+    width: 397px;
+}
+
+.home-list {
+   font-size: 28px;
+   padding: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+li {
+    padding: 4px;
+}
+
+.back {
+    font-weight: 700;
+    text-align: center;
+}
+
+.happy {
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
